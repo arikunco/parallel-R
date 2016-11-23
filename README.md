@@ -1,6 +1,7 @@
 # parallel-R
 # Title
-How-to go parallel in R - basics + tips
+How-to go parallel in R - basics + tips 
+# Source
 This code is curated from this blog link: https://www.r-bloggers.com/how-to-go-parallel-in-r-basics-tips/
 # Objective
 To Practice parallel programming in R (basic) with code samples 
