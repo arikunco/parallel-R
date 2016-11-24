@@ -16,9 +16,11 @@ library(parallel)
 no_cores <- detectCores() - 1
 
 # using parLapply
-# Initiate cluster
+
+# Initiate cluster 
 cl <- makeCluster(no_cores,type = "FORK") # type = "FORK" is for UNIX
-cl <- makeCluster(no_cores,type= "PSOCK") # default type is PSOCK for Windows.
+# cl <- makeCluster(no_cores,type= "PSOCK") # default type is PSOCK for Windows.
+
 parLapply(cl, 2:4,
           function(exponent)
             2^exponent)
